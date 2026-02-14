@@ -3,8 +3,8 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and project title
-repository-name: eYY-co2060-project-template
-title: Project Template
+repository-name: eYY-co2060-antigravity
+title: Merch4Change
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template, and add more information required for your own project"
@@ -24,9 +24,11 @@ A HTML template integrated with the given GitHub repository templates, based on 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/23/347, S.D.M.P. Sandanayake, [email](mailto:e23347@eng.pdn.ac.lk)
+-  E/23/343, S.B.N.S. Samarawickrama, [email](mailto:e23343@eng.pdn.ac.lk)
+-  E/23/089, M.A.S. Dulshara, [email](mailto:e23089@eng.pdn.ac.lk)
+-  E/23/050, G.C. Damsiluni, [email](mailto:e23050@eng.pdn.ac.lk)
+
 
 <!-- Image (photo/drawing of the final hardware) should be here -->
 
