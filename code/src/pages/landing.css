@@ -1,22 +1,39 @@
 .landing-page {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(
+        135deg,
+        #f9f5ff 0%,
+        #f5e8ff 20%,
+        #e8f2ff 40%,
+        #e8faff 60%,
+        #f0ffe8 80%,
+        #fff5e8 100%
+    );
+    background-attachment: fixed;
     padding: 20px;
 }
 
-.landing-title {
-    font-family: "droidsans", sans-serif;
-    font-size: 48px;
-    color: white;
+.title1{
+    margin-left: 120px;
+    max-width: 350px;
+    margin-bottom: 0px;
+    margin-bottom: -25px;
+}
+
+.title h1{
     margin: 0;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sub-topic{
+    margin-left: 120px;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; 
+}
+
+.sub-topic p{
+    margin: 0;
 }
 
 .landing-subtitle {
