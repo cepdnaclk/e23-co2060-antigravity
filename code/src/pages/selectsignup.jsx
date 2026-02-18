@@ -1,4 +1,5 @@
 import "./selectsignup.css"
+import logo1 from "../assets/logo.jpeg"
 
 const isMobile = window.innerWidth < 768;
 

@@ -1,4 +1,5 @@
 import "./landing.css";
+import BrandSection from "./brandSection";
 
 function LandingPage({ onNavigate }) {
 
@@ -30,6 +31,7 @@ function LandingPage({ onNavigate }) {
                 <button onClick={() => goToPage('selectsignup')} className="landing-btn landing-btn-secondary">Sign Up</button>
             </div>
         </div>
+        <BrandSection/>
     </>
     );
 }

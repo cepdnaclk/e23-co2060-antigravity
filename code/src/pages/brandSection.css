@@ -1,0 +1,26 @@
+.section-brands{
+    background-color: white;
+}
+
+.section-brands p{
+    margin-left: 120px;
+    max-width: 250px;
+    font-size: 20px;
+    padding-top: 30px;
+    
+}
+
+.brands{
+    display: flex;
+}
+
+.brands-track{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logoPreview{
+    max-width: 100px;
+}
+
