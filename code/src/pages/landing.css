@@ -9,7 +9,7 @@
         #fff5e8 100%
     );
     background-attachment: fixed;
-    padding: 20px;
+    padding: 20px 0px 60px 0; 
 }
 
 .title1{
@@ -35,20 +35,14 @@
     margin: 0;
 }
 
-.landing-subtitle {
-    font-family: "Satoshi", sans-serif;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0;
-    text-align: center;
-}
-
 .landing-buttons-container {
     display: flex;
     gap: 16px;
     margin-top: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 120px;
+    max-width: 350px;
 }
 
 .landing-btn {

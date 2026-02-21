@@ -3,24 +3,61 @@
 }
 
 .section-brands p{
-    margin-left: 120px;
     max-width: 250px;
     font-size: 20px;
-    padding-top: 30px;
-    
+    font-family: Satoshi;
+    font-weight: 500;
 }
 
 .brands{
     display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 5px 60px;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
-.brands-track{
-    display: flex;
-    flex-direction: column;
+.brands-track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  animation: scroll 24s linear infinite;
+  border: 1px solid black;
 }
-
 
 .logoPreview{
     max-width: 100px;
 }
 
+.brands-wrapper{
+    height: 110px;
+    width: 120px;
+    overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.des{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.charities, .companies{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.companies{
+    border-right: 3px solid black;
+}

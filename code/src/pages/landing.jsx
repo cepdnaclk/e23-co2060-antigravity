@@ -25,7 +25,7 @@ function LandingPage({ onNavigate }) {
             <div className="sub-topic">
                 <p style={{fontSize: "20px"}}>Connect . Act . Impact . Shop</p>
             </div>
-            <p className="landing-subtitle">hello, world</p>
+
             <div className="landing-buttons-container">
                 <button onClick={() => goToPage('login')} className="landing-btn landing-btn-primary">Login</button>
                 <button onClick={() => goToPage('selectsignup')} className="landing-btn landing-btn-secondary">Sign Up</button>

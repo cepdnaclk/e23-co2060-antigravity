@@ -36,15 +36,23 @@ function BrandSection() {
         <div className="section-brands">
           <p>Most famous brands around the world has connected</p>
         </div>
-        {Array.from({ length: columns }).map((_, rowIndex) => (
-          <div key={rowIndex} className="brands-wrapper">
+        {Array.from({ length: columns }).map((_, columnIndex) => (
+          <div key={columnIndex} className="brands-wrapper">
             <div className="brands-track">
-              {logos.map((logo, i) => (
+              {[...logos, ...logos].map((logo, i) => (
                 <img key={i} src={logo} alt="brand" className="logoPreview" />
               ))}
             </div>
           </div>
         ))}
+      </div>
+      <div className="des">
+            <div className="companies" style={{fontWeight: "600", fontSize: "25px"}}>For Companies
+              
+                <p>This is the testing paragraph desctiption for comapnies section </p>
+            </div>
+              
+            <div className="charities" style={{fontWeight: "600", fontSize: "25px"}}>For Charities</div>
       </div>
     </>
   );
